@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyledInput, StyledLabel } from 'components/ContactForm/Form.styled';
+import { StyledInput, StyledLabel } from '../ContactForm/Contacs.styled';
 import { StyledFilter } from './Filter.styled';
 
 export const Filter = ({ filterValue, inputFilterData }) => {

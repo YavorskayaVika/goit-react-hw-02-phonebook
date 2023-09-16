@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Form } from './ContactForm/Form';
+import { Form } from './ContactForm/ContactForm';
 import { ContactList } from './Contacts/Contacs';
 import { Filter } from './Filter/Filter';
 import { nanoid } from 'nanoid';
-import { StyledSubTitle, StyledTitle, StyledWrapper } from 'styles/App.styled';
+import { StyledSubTitle, StyledTitle, StyledWrapper } from './Styles/App.styled';
 
 export class App extends React.Component {
   state = {
